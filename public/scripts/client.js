@@ -65,6 +65,26 @@ const createTweetElement = function(tweet) {
 }
 renderTweets(data);
 
+$("#tweetForm").submit(function(event) {
+    event.preventDefault();
+    let result = $(this).serialize()
+    $.post ("/tweets", result);
+})
+
+// Renders the tweets if the GET request was successfull
+
+const loadTweets = function() {
+    $.ajax("/tweets", {
+        method: "GET",
+        data: $(".submit-tweet").serialize(),
+        dataType: "json",
+        success: function(response) {
+            renderTweets(response);
+        }
+    });
+};
+loadTweets();
+
 });
 
 
