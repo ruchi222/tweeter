@@ -1,0 +1,44 @@
+article.tweet {
+    border: 3px solid black;
+    padding: 0.5em;
+}
+
+article.tweet header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5em;
+}
+
+.tweet-user{
+    display: flex;
+}
+
+article.tweet footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    align-items: baseline;
+}
+
+article.tweet:hover {
+    box-shadow: 10px 10px burlywood;
+}
+
+.fas {
+    padding: 0 0.5em;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+.fa-flag:hover {
+    color: red;
+}
+
+.fa-retweet:hover {
+    color: red;
+}
+
+

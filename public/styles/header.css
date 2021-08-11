@@ -1,0 +1,12 @@
+.pageheader {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #008fb3;
+    flex-direction: column;
+}
+
+.name {
+    color: whitesmoke;
+}

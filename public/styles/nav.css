@@ -1,0 +1,25 @@
+nav {
+    height: 120px;
+    background-color: #4056A1;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    position: fixed;
+    top:0%;
+}
+
+span {
+    font-family: 'Bungee', cursive;
+}
+
+.arrowIcon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: red;
+    
+}
