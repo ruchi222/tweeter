@@ -8,7 +8,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 !["Desktop View"](https://github.com/ruchi222/tweeter/blob/master/docs/Desktop%20View.png)
 !["Exceed Length Error Message"](https://github.com/ruchi222/tweeter/blob/master/docs/Exceed%20length.png)
-!["Responsive"](https://github.com/ruchi222/tweeter/blob/master/docs/Exceed%20length.png)
+!["Responsive"](https://github.com/ruchi222/tweeter/blob/master/docs/Responsive.png)
 
 # Project Stack
 
