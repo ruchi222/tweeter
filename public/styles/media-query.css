@@ -1,0 +1,22 @@
+
+@media only screen and (min-width:1024px) {
+    .new-tweet {
+        width: 100%;
+    }
+    .content-container {
+        display: flex;
+        margin-left: 0.8em;
+    }
+    .pageheader {
+        margin-right: 0.8em;
+        margin-top: 0.8em;
+
+    }
+    .container {
+        padding: 0.8em;
+    }
+    .tweet {
+        margin-bottom: 0.8em;
+    }
+}
+
