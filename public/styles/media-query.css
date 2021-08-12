@@ -1,5 +1,5 @@
 
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:768px) {
     .new-tweet {
         width: 100%;
     }
@@ -23,20 +23,22 @@
     }
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:1024px) {
     .new-tweet {
         width: 100%;
     }
     .content-container {
         display: flex;
         margin-left: 0.8em;
+        justify-content: space-between;
     }
     .pageheader {
-        margin-right: 0.8em;
-        margin-top: 0.8em;
+        margin-right: 0.12em;
+        margin-top: 5em;
         align-items: center;
         justify-content: center;
         display: flex;
+        max-width: 500px;
 
     }
     .container {
