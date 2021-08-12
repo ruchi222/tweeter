@@ -34,3 +34,21 @@
     color: rebeccapurple;
     font-weight: bold;
 }
+
+.alert {
+    display: none;
+    text-align: center;
+    color: red;
+    border-bottom: red;
+    font-family: "Bungee", sans-serif;
+    padding: 0.5em;
+    width: 100%;
+    border: solid;
+
+}
+
+@media only screen and (min-width:1024px) {
+    .new-tweet {
+        width: 90%;
+    }
+}
