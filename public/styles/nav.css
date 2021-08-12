@@ -17,9 +17,15 @@ span {
 }
 
 .arrowIcon {
+    position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
     color: red;
     
+}
+
+.arrowIcon:hover {
+    top: 10px;
+
 }
