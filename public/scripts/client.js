@@ -19,7 +19,7 @@ const renderTweets = function(tweets) {
             // declaring
         const $tweet = createTweetElement(tweet);
            // takes return value and appends it to the tweets container
-        $('.tweet-container').append($tweet); // to add it to the page so we can make sure it's got all the right elements, classes, etc.
+        $('.tweet-container').prepend($tweet); // to add it to the page so we can make sure it's got all the right elements, classes, etc.
     }
 }
 
